@@ -1,0 +1,14 @@
+.bg-p{
+    background-color: rgb(37, 63, 134);
+}
+.text-p{
+    color:rgb(37, 63, 134);
+
+}
+button{
+    color:rgb(37, 63, 134);
+}
+button:hover{
+    background-color:rgb(140, 153, 224);
+
+}

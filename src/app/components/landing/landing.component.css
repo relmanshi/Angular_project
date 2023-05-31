@@ -1,0 +1,32 @@
+.bg-p{
+    background-color: rgb(37, 63, 134);
+}
+.text-p{
+    color:rgb(37, 63, 134);
+
+}
+button{
+    color:rgb(37, 63, 134);
+}
+button:hover{
+    background-color:rgb(140, 153, 224);
+
+}
+a{text-decoration: none;}
+.theader tr {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size:xx-large;
+font-weight: lighter;
+margin: 5%;
+padding: 5%;
+}
+table tr {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(200, 203, 207);
+    border-bottom: 2px;
+}
+table td{
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: white;
+}

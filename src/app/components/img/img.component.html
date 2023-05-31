@@ -1,0 +1,25 @@
+<!------------------------header details---------------------------------------------------->
+<nav class="d-flex justify-content-center col-lg-12 col-md-12 col-sm-6 navbar navbar bg-p mt-5 p-0">
+    <div class="d-flex justify-content-center text-light"*ngIf="users" >
+    <p class=" mx-5 mt-3 justify-content-start">{{users.name}}</p>
+    <div class="mx-5 mt-2"style="border-left: 3px solid white;height: 45px;"></div>
+    <p class=" mx-5 mt-3 justify-content-center">{{users.email}}</p> 
+    <div class="mx-5 mt-2" style="border-left: 3px solid white;height: 45px;"></div>
+    <p class=" mx-5 mt-3 justify-content-end">Address : {{users.address.street}},{{users.address.suite}},{{users.address.city}}</p>
+    </div> 
+</nav>
+<!-----------photo heading----------------------->
+<h1 class="text-p d-flex justify-content-center mt-3">Photos</h1>
+<hr>
+<!----------------------------photos----------------------------------->
+<div class="container ">
+    <div class="row d-flex justify-content-center">
+        
+            <div class="col-lg-12 col-md-12 col-sm-12 d-flex flex-row  justify-content center flex-wrap" >
+            <div *ngFor="let s of ph">
+                    <img src="{{s.url}}"width="150" height="150" class="d-flex flex-column m-3">
+            </div>
+            </div>
+
+</div>
+</div>

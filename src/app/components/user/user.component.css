@@ -1,0 +1,35 @@
+a{
+    text-decoration: none;
+}
+.count{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+.bg-p{
+    background-color: rgb(37, 63, 134);
+}
+.text-p{
+    color:rgb(37, 63, 134);
+
+}
+button{
+    color:rgb(37, 63, 134);
+}
+button:hover{
+    background-color:rgb(140, 153, 224);
+
+}
+.bgb
+{
+
+   border:solid rgb(37, 63, 134);
+   
+    background-position: center;
+
+}
+
+.top:hover{
+background-color: rgb(44, 82, 187);
+
+}
